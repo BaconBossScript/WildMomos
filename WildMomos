@@ -1,0 +1,243 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "BaconBoss Hub | Wild World Of Momos", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+    local MainTab = Window:MakeTab({
+        Name = "Main",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+    local Tp3Tab = Window:MakeTab({
+        Name = "Minigame",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    local Tp4Tab = Window:MakeTab({
+        Name = "Others",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+    Tp3Tab:AddButton({
+        Name = "Script Tp To Minigame",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubIngameUgcLimiteds.lua"))()        end
+    }) 
+    
+    Tp3Tab:AddButton({
+        Name = "Win Cosmic Elipse Tournaments",
+        Callback = function()
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+            wait(0.5)
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+            wait(0.5)
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+            wait(0.5)
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+            wait(0.5)
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+            wait(0.5)
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+            wait(0.5)
+            local playerHead = game.Players.LocalPlayer.Character.Head 
+            for i, v in pairs(game:GetService("Workspace").HorrorShards:GetDescendants()) do
+                if v.Name == "TouchInterest" and v.Parent then
+                    firetouchinterest(playerHead, v.Parent, 0)
+                    wait(0.001)
+                    firetouchinterest(playerHead, v.Parent, 1)
+                end
+            end
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Environment.Monument.HoopEnergyPad.ExitTrigger.CFrame)
+            wait(0.5)
+            Teleport(game:GetService("Workspace").World.Area_001.Area_001.CFrame)
+
+          
+        end
+    })
+
+  _G.o = true
+
+  getgenv().tpPlace = "string"
+
+  function Teleport(teleportPlace)
+     local player = game.Players.LocalPlayer
+     player.Character.HumanoidRootPart.CFrame = teleportPlace
+  end
+
+  function o()
+       while _G.o == true do
+         local playerHead = game.Players.LocalPlayer.Character.Head 
+         for i, v in pairs(game:GetService("Workspace").WorldLoot.Orbs:GetDescendants()) do
+         if v.Name == "TouchInterest" and v.Parent then
+         firetouchinterest(playerHead, v.Parent, 0)
+          wait(0.001)
+         firetouchinterest(playerHead, v.Parent, 1)
+         end
+        end
+    end
+end
+
+     MainTab:AddLabel("Note: Unlock More Island For More Orbs Or Rejoin")
+
+    MainTab:AddToggle({
+        Name = "Auto Collect Orbs",
+        Default = false,
+        Callback = function(Value)
+            _G.o = Value
+            o()
+        end    
+    })
+
+    Tp4Tab:AddButton({
+        Name = "Anti AFK",
+        Callback = function()
+            local vu = game:GetService("VirtualUser")
+            game:GetService("Players").LocalPlayer.Idled:connect(function()
+                vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+                wait(1)
+                vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+            end)
+        end
+    })
+    
+    Tp4Tab:AddButton({
+        Name = "Delete Time Hold Button E",
+        Callback = function()
+            while true do
+                for _, v in next, workspace:GetDescendants() do
+                    if v:IsA("ProximityPrompt") then
+                        v.HoldDuration = 0
+                    end
+                end
+                wait(1) 
+            end
+        end
+    })
+    
+    Tp4Tab:AddButton({
+        Name = "Server Less People",
+        Callback = function()
+            local Http = game:GetService("HttpService")
+            local TPS = game:GetService("TeleportService")
+            local Api = "https://games.roblox.com/v1/games/"
+    
+            local _place = game.PlaceId
+            local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+    
+            local function ListServers(cursor)
+                local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+                return Http:JSONDecode(Raw)
+            end
+    
+            local Server, Next
+            repeat
+                local Servers = ListServers(Next)
+                Server = Servers.data[1]
+                Next = Servers.nextPageCursor
+            until Server
+    
+            TPS:TeleportToPlaceInstance(_place, Server.id, game.Players.LocalPlayer)
+        end
+    })
+    
+    Tp4Tab:AddButton({
+        Name = "Server Hop",
+        Callback = function()
+            local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua"))()
+            module:Teleport(game.PlaceId)
+        end
+    })
+    
+    Tp4Tab:AddSlider({
+        Name = "Change Speed Power",
+        Min = 16,
+        Max = 1000,
+        Default = 5,
+        Color = Color3.fromRGB(255,255,255),
+        Increment = 1,
+        ValueName = "Speed",
+        Callback = function(Value)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+        end    
+    })
+    
+    Tp4Tab:AddSlider({
+        Name = "Change Jump Power",
+        Min = 16,
+        Max = 1000,
+        Default = 5,
+        Color = Color3.fromRGB(255,255,255),
+        Increment = 1,
+        ValueName = "Jump",
+        Callback = function(Value)
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+        end    
+    })
